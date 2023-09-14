@@ -1,0 +1,166 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+html{
+    font-size: 62.5%;
+    font-family: Arial, Helvetica, sans-serif;
+
+}
+div{
+    font-size: 1.5rem;
+}
+
+header{
+    width: 100vw;
+    min-height: 5rem;
+
+}
+
+nav{
+    display: flex;
+    padding-top:2rem;
+    padding-bottom: 2rem;
+    
+    
+    
+}
+
+.izquierda{
+    display: flex;
+    justify-content: flex-start;
+    width:50%;
+    gap:2rem;
+    padding-left: 2rem;
+    align-items: center;
+    
+}
+.todo{
+    border-bottom: 2px solid blue;
+    color: blue;
+    
+}
+.derecha{
+    display: flex;
+    justify-content: flex-end;
+    width:50%;
+    gap:2rem;
+    padding-right: 2rem;
+    align-items: center;
+    
+    
+    
+}
+
+.fas{
+    font-size: 1.8rem;
+
+}
+
+.fa-solid{
+    font-size: 1.8rem;
+}
+
+.jesus{
+
+    width:3rem;
+    height: 2.5rem;
+    border-radius: 5rem;
+    
+    
+   
+
+}
+
+.container{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+
+.boton{
+    color:#5f6368;
+    text-decoration: none;
+    background-color: #f8f8f7;
+    padding:1rem;
+    border-radius: 4px;
+    margin:0 .5rem;
+}
+
+.botones{
+    margin-top: 2.6rem;
+}
+.barra--nav{
+    height:100%;
+    width:90%;
+    border: none;
+    border-radius: 24px;
+    padding:1rem;
+    font-size: 1.6rem;
+
+    
+    
+} 
+.barra--nav:active{
+
+    outline: none;
+}
+
+.barra--nav:focus{
+    outline: none;
+}
+
+.barra{
+    margin: 2rem;
+    height:5rem;
+    width:60rem;
+    border:1px solid gray;
+    border-radius: 24px;
+    padding:1rem;
+
+}
+
+footer{
+    display: flex;
+    flex-direction: column;
+    background-color: #f1f1f1;
+    position: absolute;
+    bottom: 0;
+    width: 100vw;
+    
+    
+}
+
+.f2{
+    display: flex;
+    justify-content: space-between;
+    padding:1.5rem 1rem;
+    
+}
+
+
+.f1{
+    padding-top: 1.5rem;
+    padding-bottom: 1.5rem;
+    border-bottom: .5px solid #c4c4c4;
+}
+
+.enlace{
+    text-decoration: none;
+    color:#5f6368
+}
+
+.termino, .termino2{
+    display: flex;
+    gap:2rem;
+}
+
+
+.enlace2{
+    color: #5f6368;
+    padding-left: 1rem;
+    
+    
+}
